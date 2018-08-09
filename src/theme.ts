@@ -1,0 +1,20 @@
+export const Colors = {
+  WHITE: 'white',
+  DUCK_EGG_BLUE: 'rgba(196, 231, 247, 0.2)',
+  MEDIUM_GREY: '#666766',
+  BLUE: '#1588b5',
+  MEDIUM_GREY_75: 'rgba(102, 103, 102, 0.75)',
+  MEDIUM_GREY_50: 'rgba(102, 103, 102, 0.5)',
+  MEDIUM_GREY_25: 'rgba(102, 103, 102, 0.25)',
+  GREY: '#b3b3b3',
+  GREEN: '#1ab97f',
+  EMERALD: '#00a166',
+  LIGHT_BLUE: '#89cff0',
+  SUPER_LIGHT_BLUE: '#c4e7f7',
+  BLUE_30: 'rgba(21, 136, 181, 0.1)',
+  BLUE_50: 'rgba(21, 136, 181, 0.5)',
+  BLUE_75: 'rgba(21, 136, 181, 0.75)',
+  DARK_GREY: '#333333',
+  MAIN: '#EEF8FD',
+  ERROR_RED: 'red'
+};

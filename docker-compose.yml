@@ -1,0 +1,18 @@
+version: "2"
+services:
+  app:
+    container_name: app
+    restart: always
+    build: .
+    ports:
+      - "3000:3000"
+    links:
+      - mongodb
+  mongodb:
+    container_name: mongodb
+    image: mongo:latest
+    environment:
+      - MONGODB_USER="test1234" 
+      - MONGODB_PASS="test1234@ds147181.mlab.com"
+    ports:
+      - "47181:47181"
